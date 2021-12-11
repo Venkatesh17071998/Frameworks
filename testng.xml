@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+	<test name="Test">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="org.testng.Testng11" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test1">
+	<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="org.testng.Testng11" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
